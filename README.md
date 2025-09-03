@@ -13,9 +13,10 @@ This experiment demonstrates how different prompting techniques can shape the ch
 
 Objective: Provide concise responses to customer queries.
 Prompt Pattern:
+```
 "When a customer asks for the status of their order, reply with:
 ‘Your order is currently being processed and will be delivered by [date].’"
-
+```
 Example Interaction:
 
 Customer: What is the status of my order?
@@ -26,9 +27,10 @@ Chatbot: Your order is currently being processed and will be delivered by [date]
 
 Objective: Use customer’s previous interactions for more relevant replies.
 Prompt Pattern:
+```
 "If the customer mentioned they haven’t received their order, reply:
 ‘I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.’"
-
+```
 Example Interaction:
 
 Customer: I haven't received my order yet.
@@ -39,8 +41,9 @@ Chatbot: I see that you mentioned your order hasn't arrived yet. Let me check th
 
 Objective: Make the chatbot sound engaging by adopting a persona.
 Prompt Pattern:
+```
 "Pretend you are a friendly customer service representative. Use a conversational tone."
-
+```
 Example Interaction:
 
 Customer: I'm having trouble with my new product.
@@ -51,8 +54,9 @@ Chatbot: Hey there! I’m here to help with any questions you might have. Let’
 
 Objective: Teach the AI with examples for better generalization.
 Prompt Pattern:
+```
 "Here are some examples of handling technical issues… Now respond to: ‘My app keeps crashing.’"
-
+```
 Example Interaction:
 
 Customer: My app keeps crashing.
@@ -63,8 +67,9 @@ Chatbot: It sounds like the app is unstable. Have you tried closing other apps? 
 
 Objective: Solve complex issues step by step.
 Prompt Pattern:
+```
 "When a customer reports overheating, guide them step by step… Now solve: ‘My laptop fan is making a loud noise.’"
-
+```
 Example Interaction:
 
 Customer: My laptop fan is making a loud noise.
@@ -75,8 +80,9 @@ Chatbot: I understand your laptop fan is making noise. Could you tell me if you�
 
 Objective: Respond under specific rules (length, tone, no jargon).
 Prompt Pattern:
+```
 "Respond to order inquiries in no more than 50 words."
-
+```
 Example Interaction:
 
 Customer: When will my order arrive?
@@ -87,8 +93,9 @@ Chatbot: Your order is on the way and should arrive by [date]. Feel free to reac
 
 Objective: Confirm customer’s query before answering → reduces confusion.
 Prompt Pattern:
+```
 "Reflect the query back to the user before answering."
-
+```
 Example Interaction:
 
 Customer: How do I track my order?
